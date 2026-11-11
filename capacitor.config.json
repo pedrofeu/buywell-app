@@ -1,0 +1,14 @@
+{
+  "appId": "br.tec.feu.buywell",
+  "appName": "BuyWell",
+  "webDir": "www",
+  "server": {
+    "url": "https://buywell.feu.tec.br",
+    "cleartext": false,
+    "allowNavigation": ["buywell.feu.tec.br", "*.cloudflareaccess.com", "*.cloudflare.com"]
+  },
+  "android": {
+    "allowMixedContent": false,
+    "backgroundColor": "#ffffff"
+  }
+}
