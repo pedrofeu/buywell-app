@@ -29,7 +29,7 @@ public class NotaSefazActivity extends Activity {
     static volatile String resultadoUrl;
 
     private static final int AZUL = Color.parseColor("#1565C0");
-    private static final String LEITOR_JS =
+    static final String LEITOR_JS =
         "(function(){" +
         " function docs(d,a){a.push(d);var f=d.querySelectorAll('iframe,frame');" +
         "  for(var i=0;i<f.length;i++){try{var c=f[i].contentDocument;if(c)docs(c,a);}catch(e){}}return a;}" +
